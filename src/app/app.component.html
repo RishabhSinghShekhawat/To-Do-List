@@ -1,0 +1,42 @@
+<h1>(TO-DO LIST) BY R.S.Shekhawat</h1>
+<div style="text-align:center">
+    
+
+Tasks pending out of total tasks:{{count2()}}/{{numbers.length}}
+</div >
+         ADD YOUR SCHEDULE HERE. <br>
+        <input type="text" [(ngModel)]="name">
+       <select name="" id="" [(ngModel)]="priority">
+            
+                    
+        <option value="" selected hidden>priorities</option>
+           <option>high</option>
+           <option>medium</option>
+           <option>low</option>
+
+
+       </select>
+        <button (click)="add()">
+                Add
+            </button>
+             
+
+<ul  list-style-type: none>
+
+ <li [ngClass]="{'change':number.status==true,'turn':number.status==false,'change1':number.priority=='high','change2':number.priority=='medium','change3':number.priority=='low'}" *ngFor="let number of numbers;let i=index">{{number.name}}..........{{number.date}}
+     
+        
+        <button (click)="delete(i)">
+                Delete
+            </button>
+            
+        <button (click)="checkstatus(i)" >
+            Done
+        </button>
+
+    
+</li>
+
+</ul>
+
+ 

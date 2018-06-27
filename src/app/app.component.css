@@ -1,0 +1,37 @@
+.change{
+    Background-color:rgb(255, 251, 0);
+    padding: 15px;
+    border: solid white 7px;
+    margin: left;
+}
+
+
+
+.change1{
+    Background-color:rgb(255,174.0);
+    padding: 15px;
+    border: solid white 7px;
+    margin: left;
+
+}
+.change2{
+    Background-color:rgb(0, 115, 150);
+    padding: 15px;
+    border: solid white 7px;
+    margin: left;
+
+}
+.change3{
+    Background-color:rgb(0, 110, 0);
+    padding: 15px;
+    border: solid white 7px;
+    margin: left;
+}
+
+    .turn{
+        Background-color:rgba(0, 255, 136, 0.137);
+        padding: 15px;
+        border: solid white 7px;
+        margin: left;
+
+}
